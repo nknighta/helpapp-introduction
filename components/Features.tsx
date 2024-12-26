@@ -1,4 +1,4 @@
-import { Zap, Shield, Smartphone } from 'lucide-react'
+import { Shield } from 'lucide-react'
 
 const features = [
   {
