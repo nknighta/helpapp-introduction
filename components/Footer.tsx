@@ -15,7 +15,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="mt-8 text-center text-sm">
-          © {new Date().getFullYear()} chuo.ac.jp All Rights Reserved.
+          © 2024 - {new Date().getFullYear()} 中央情報大学校 chuo.ac.jp All Rights Reserved.
         </div>
       </div>
     </footer>

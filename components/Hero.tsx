@@ -12,14 +12,17 @@ export default function Hero() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">くらしやすい街に</h1>
-          <p className="text-xl mb-6">くらしやすい街に</p>
+          <p className="text-xl mb-6">
+            ハンディキャップを持つ全ての人々が安心してサポートを受けられる社会を構築するため、まちなか保健室構想を提案します。
+          </p>
           <button
             className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
             onClick={handleButtonClick}>
             つかう
           </button>
         </div>
-        <div className="md:w-1/2">
+        
+        <div className="md:w-1/2 p-6">
           <Image
             src="/helpappicon_rounded.png"
             alt="Awesome Product"

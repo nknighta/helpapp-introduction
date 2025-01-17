@@ -6,11 +6,10 @@ export default function Header() {
     <header className="w-full bg-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <nav className="hidden md:flex space-x-4">
-          <Link href="/" className="text-2xl font-bold text-blue-600">まちなか保健室</Link>
-          <Badge variant="destructive">テスト版</Badge>
+          <Link href="/" className="text-2xl font-bold text-orange-500">まちなか保健室構想</Link>
         </nav>
         <nav className="hidden md:flex space-x-4">
-          <Link href="#features" className="text-gray-600 hover:text-blue-600">使い方</Link>
+          <Link href="#features" className="text-orange-500 hover:text-orange-500">使い方</Link>
         </nav>
         <button className="md:hidden">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
