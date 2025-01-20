@@ -22,15 +22,22 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           <div className="flex flex-col items-center text-center">
             <h1 className="text-4xl font-bold">まちなか保健室構想</h1>
-            <Shield className="w-12 h-12" />
+            <div className='py-4'>
+              <Shield className="w-12 h-12" />
+            </div>
             <p className="text-black-600 text-2xl py-4">
               ハンディキャップを持つ全ての人々が安心してサポートを受けられる社会を構築するため、私たちは「まちなか保健室構想」を提案します。
             </p>
-            <p className="text-black-600 text-lg py-4">
-              「まちなか保健室構想」では、パニックや急な体調悪化などの緊急時に、周辺の提携先店舗に駆け込んで助けを求められる仕組み、また周囲にいる誰もが困っている人を支援できる仕組みを作ります。
-              地域全体で共に助け合う意識を高め、万が一の際には素早く適切な対応ができる体制を整え、緊急時、ひいては日常生活における支え合いを強化します。
-              これにより、地域全体の人々が安心して暮らせる包括的なサポート体制を目指しています。
-            </p>
+            <div className="text-black-600 text-lg py-4">
+              <div className='py-3'>
+                「まちなか保健室構想」では、パニックや急な体調悪化などの緊急時に、助けを求められる仕組み、また誰もが困っている人を支援できる仕組みを作ります。
+              </div>
+              <div className='py-3'>
+
+                地域全体で共に助け合う意識を高め、緊急時や日常生活における支え合いを強化します。
+                これにより、安心して暮らせるサポート体制を目指します。
+              </div>
+            </div>
           </div>
           <div>
             {featureslist.map((feature, index) => (
@@ -42,15 +49,36 @@ export default function Features() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-4 text-center ">
         <h1 className="text-4xl font-bold">目標達成に向けて</h1>
+        <div className='py-2'>
+          <div className='p-2 border my-2'>
+            <h2 className="text-xl font-bold">手段の一つとして「助けを求める/助けやすくする」アプリケーションの開発</h2>
+            <p className="text-black-600 text-lg py-4">
+              緊急時の救助要請、チャット機能、緊急連絡先など
+            </p>
+          </div>
+          <div className='p-2 border my-2'>
+            <h2 className="text-xl font-bold">
+              協賛企業・団体の誘致
+            </h2>
+            <p className="text-black-600 text-lg py-4">
+              "駆け込み寺”のような施設、仕組み
+            </p>
+          </div>
+          <div id='questionnaire' className='p-2 border my-2'>
 
-        <h2 className="text-2xl font-bold">手段の一つとして<br/> 「助けを求める/助けやすくする」アプリケーションの開発</h2>
-        <p className="text-black-600 text-lg py-4">
-          緊急時の救助要請、チャット機能、緊急連絡先など
-          協賛企業・団体の誘致
-          "駆け込み寺”のような施設、仕組み
-        </p>
+            <h1 className="text-3xl font-bold">
+              アンケート
+            </h1>
+            <p className='text-black-600 text-lg py-4'>
+              主に目に見えない障害や精神障害を持つ方々の日常生活をサポートし、緊急時に迅速な支援を提供するためのスマートフォンアプリケーションを現在開発中です。
+            </p>
+            <div className='flex justify-center'>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScC5i-UUuEAaNY32YxEJIwh9rQksV1ORHj7Nt8gEu5ejhQvUQ/viewform?embedded=true" width="440" height="688">読み込んでいます…</iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

@@ -10,8 +10,7 @@ export default function Footer() {
           </div>
           <nav className="flex flex-wrap justify-center md:justify-end space-x-4">
             <Link href="#" className="hover:text-blue-400">個人情報保護規約</Link>
-            <Link href="#" className="hover:text-blue-400">運営者</Link>
-            <Link href="#" className="hover:text-blue-400">問い合わせ</Link>
+            <Link href="https://chuo.ac.jp/cid" className="hover:text-blue-400">運営者</Link>
           </nav>
         </div>
         <div className="mt-8 text-center text-sm">

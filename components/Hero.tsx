@@ -16,7 +16,7 @@ export default function Hero() {
             ハンディキャップを持つ全ての人々が安心してサポートを受けられる社会を構築するため、まちなか保健室構想を提案します。
           </p>
           <button
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
+            className="bg-orange-400 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-orange-700 transition duration-300"
             onClick={handleButtonClick}>
             つかう
           </button>
