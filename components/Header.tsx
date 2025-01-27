@@ -14,7 +14,7 @@ export default function Header() {
           <Link href="#features" className="text-orange-500 hover:text-orange-500">使い方</Link>
         </nav>
       </div>
-      <a href="https://forms.gle/bRVguziCLkWCLTMSA" className='flex justify-center items-center bg-orange-500 text-white text-sm py-1'>
+      <a href="https://forms.gle/bRVguziCLkWCLTMSA" className='flex justify-center items-center bg-orange-500 text-white text-sm py-1 hover:text-orange-200'>
         アンケートのお願い
       </a>
     </header>
